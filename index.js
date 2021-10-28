@@ -18,19 +18,19 @@ function NumberCheck(){
 
     
     if(text.value == '' || text.value == '0' || text.value > 100 || text.value <= 0){
-        document.getElementById("sonuc").innerText = "0 ile 100 arası bir değer giriniz."
+        document.getElementById("sonuc").innerText = "Write number between 0-100"
         
     }else if(text.value > random_number){
-        document.getElementById("sonuc").innerText = "Düşür..."
+        document.getElementById("sonuc").innerText = "Down..."
         sayac++;
         document.getElementById("attempt").innerText = `${sayac}`;
 
     }else if(text.value < random_number){
-        document.getElementById("sonuc").innerText = "Yükselt..."
+        document.getElementById("sonuc").innerText = "Up..."
         sayac++;
         document.getElementById("attempt").innerText = `${sayac}`;
     }else if(text.value == random_number){
-        document.getElementById("sonuc").innerText = "Doğru bildiniz, Tebrikler..."
+        document.getElementById("sonuc").innerText = "Succesful..."
     }
 
   console.log(GenerateNumber);

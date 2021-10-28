@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+}
+.main-container{
+    border: 1px solid red;
+    width: fit-content;
+    margin-top: 50px;
+  height: 300px;
+}
+.text{
+    color: red;
+    font-size:x-large;
+}
+p{
+    font-size: 20px;
+}
+#check{
+    border:1px solid red;
+}
+#check:hover{
+    border: 1px solid green;
+}
+
